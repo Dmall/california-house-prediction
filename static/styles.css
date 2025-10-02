@@ -1,0 +1,70 @@
+/* Apply base font and background */
+body {
+  font-family: 'Arimo', sans-serif;
+  background-color: #f5f7fa;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Style the container */
+.login {
+  background: #ffffff;
+  padding: 40px 50px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  text-align: center;
+}
+
+/* Header styling */
+.login h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 25px;
+}
+
+/* Input fields styling */
+.login input[type="text"] {
+  width: 90%;
+  padding: 12px 15px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: border-color 0.3s ease;
+}
+
+.login input[type="text"]:focus {
+  border-color: #5bc0de;
+  outline: none;
+}
+
+/* Button styling */
+button {
+  width: 95%;
+  padding: 12px;
+  background-color: #5bc0de;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #31b0d5;
+}
+
+/* Prediction text styling */
+.prediction {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #333;
+}
